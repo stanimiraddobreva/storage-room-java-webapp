@@ -37,19 +37,20 @@ This project was built to demonstrate all four core OOP principles:
 ## Project Structure
 StorageRoom/
 ├── src/
-│ ├── Main.java
-│ └── model/
-│ ├── Product.java (abstract base class)
-│ ├── PerishableProduct.java
-│ ├── NonPerishableProduct.java
-│ ├── Location.java
-│ ├── MeasurementUnit.java
-│ ├── StorageRoom.java
-│ └── StorageRoomServer.java
-└── public/
-├── index.html
-├── style.css
-└── script.js
+│   ├── Main.java
+│   └── model/
+│       ├── Product.java              (abstract base class)
+│       ├── PerishableProduct.java
+│       ├── NonPerishableProduct.java
+│       ├── Location.java
+│       ├── MeasurementUnit.java
+│       ├── StorageRoom.java
+│       └── StorageRoomServer.java
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── README.md
 
 
 ## How to Run
@@ -79,6 +80,3 @@ Open `public/index.html` directly in a browser. The page will automatically fetc
 |---|---|---|
 | `/products` | GET | Returns all products in the storage room as JSON |
   
-- **Data:** In-memory (hardcoded sample data), no file or database persistence
-
-## Project Structure
