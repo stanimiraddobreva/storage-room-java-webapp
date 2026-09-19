@@ -35,6 +35,7 @@ This project was built to demonstrate all four core OOP principles:
 - **Data:** In-memory (hardcoded sample data), no file or database persistence
 
 ## Project Structure
+```
 StorageRoom/
 ├── src/
 │   ├── Main.java
@@ -51,6 +52,7 @@ StorageRoom/
 │   ├── style.css
 │   └── script.js
 └── README.md
+```
 
 
 ## How to Run
