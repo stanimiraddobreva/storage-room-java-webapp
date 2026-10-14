@@ -1,6 +1,6 @@
 # Storage Room Management System
 
-A Java-based inventory management system for a storage room, built with core Object-Oriented Programming principles and a lightweight web interface for viewing stock data in real time.
+A Java-based inventory management system for a storage room, built with core Object-Oriented Programming principles and a lightweight web interface for viewing the current inventory
 
 ## Overview
 
