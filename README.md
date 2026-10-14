@@ -10,12 +10,13 @@ The backend is written in pure Java (no external frameworks) and exposes product
 
 ## Features
 
-- Add, remove, and search products by name, manufacturer, or comment
+- Add, remove, and search products by name or manufacturer
 - Track expiry dates and identify expired products
 - Sort products by expiry date
 - Filter products by storage location (section)
 - Calculate total storage fees across all products
-- View live inventory data in a browser through a REST-style API
+- View the inventory in a browser; the page loads data from a JSON endpoint (GET /products)
+  These operations are implemented in the model layer (StorageRoom). The web page is read-only and shows a few hardcoded sample products.
 
 ## Object-Oriented Design
 
@@ -30,7 +31,7 @@ This project was built to demonstrate all four core OOP principles:
 
 ## Tech Stack
 
-- **Backend:** Java (JDK), `com.sun.net.httpserver.HttpServer` for a minimal REST API — no external dependencies
+- **Backend:** Java (JDK), com.sun.net.httpserver.HttpServer for a minimal JSON endpoint
 - **Frontend:** HTML, CSS, JavaScript (no frameworks)
 - **Data:** In-memory (hardcoded sample data), no file or database persistence
 
@@ -61,7 +62,7 @@ StorageRoom/
 
 From the `src/` directory:
 ```bash
-javac model/*.java Main.java
+javac model/*.java 
 ```
 
 **2. Start the server**
